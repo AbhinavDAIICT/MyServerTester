@@ -1,16 +1,46 @@
 {
-  "profiles": [
-    {
-      "user_id": "some string",
-      "risk_level": "some string",
-      "close_contacts": 9,
-      "social_distancing_score": 65
-    },
-    {
-      "user_id": "some other string",
-      "risk_level": "some string",
-      "close_contacts": 9,
-      "social_distancing_score": 65
-    }
-  ]
+  "all_data": {
+    "profiles": [
+      {
+        "user_id": "some string",
+        "risk_level": "some string",
+        "close_contacts": 9,
+        "social_distancing_score": 65
+      },
+      {
+        "user_id": "some other string",
+        "risk_level": "some string",
+        "close_contacts": 9,
+        "social_distancing_score": 65
+      }
+    ],
+    "posts": [
+      {
+        "post_id": "some string 1",
+        "title": "some string 1",
+        "subtitle": "some string 1",
+        "duration": "some string 1",
+        "media_url": "some string 1",
+        "post_type": "some string 1",
+        "is_pinned": true,
+        "is_web_only": true,
+        "web_url": "some string 1",
+        "created_at": 12345678910,
+        "updated_at": 12345678910
+      },
+      {
+        "post_id": "some string 2",
+        "title": "some string 2",
+        "subtitle": "some string 2",
+        "duration": "some string 2",
+        "media_url": "some string 2",
+        "post_type": "some string 2",
+        "is_pinned": true,
+        "is_web_only": true,
+        "web_url": "some string 2",
+        "created_at": 12345678910,
+        "updated_at": 12345678910
+      }
+    ]
+  }
 }
