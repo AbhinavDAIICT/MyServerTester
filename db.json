@@ -1,19 +1,12 @@
 {
-  "all_data": {
-    "profiles": [
+  "download_data": {
+    "profile": 
       {
         "user_id": "some string",
         "risk_level": "some string",
         "close_contacts": 9,
         "social_distancing_score": 65
-      },
-      {
-        "user_id": "some other string",
-        "risk_level": "some string",
-        "close_contacts": 9,
-        "social_distancing_score": 65
-      }
-    ],
+     },
     "posts": [
       {
         "post_id": "some string 1",
@@ -42,5 +35,82 @@
         "updated_at": 12345678910
       }
     ]
+  },
+  "upload_data": {
+    "train_details": [
+      {
+        "train_number": "some string",
+        "coach_number": "some string",
+        "seat number": "some string",
+        "travel_start": "timestamp backend support, not uploaded as of now",
+        "travel_end": "timestamp backend support, not uploaded as of now",
+        "created_at": 12345678910
+      },
+      {
+        "train_number": "some string 2",
+        "coach_number": "some string 2",
+        "seat number": "some string 2",
+        "travel_start": "timestamp backend support, not uploaded as of now",
+        "travel_end": "timestamp backend support, not uploaded as of now",
+        "created_at": 12345678910
+      }
+    ],
+    "bus_details": [
+      {
+        "bus_number": "some string",
+        "seat number": "some [OPTIONAL] string",
+        "travel_start": "timestamp backend support, not uploaded as of now",
+        "travel_end": "timestamp backend support, not uploaded as of now",
+        "created_at": 12345678910
+      },
+      {
+        "train_number": "some string 2",
+        "seat number": "some [OPTIONAL] string",
+        "travel_start": "timestamp backend support, not uploaded as of now",
+        "travel_end": "timestamp backend support, not uploaded as of now",
+        "created_at": 12345678910
+      }
+    ],
+    "flight_details": [
+      {
+        "flight_number": "some string",
+        "seat number": "some string",
+        "travel_start": "timestamp backend support, not uploaded as of now",
+        "travel_end": "timestamp backend support, not uploaded as of now",
+        "created_at": 12345678910
+      },
+      {
+        "flight_number": "some string 2",
+        "seat number": "somestring",
+        "travel_start": "timestamp backend support, not uploaded as of now",
+        "travel_end": "timestamp backend support, not uploaded as of now",
+        "created_at": 12345678910
+      }
+    ],
+    "other_vehicles": [
+      {
+        "vehicle_number": "some string",
+        "vehicle_info": "some [OPTIONAL] string",
+        "travel_start": "timestamp backend support, not uploaded as of now",
+        "travel_end": "timestamp backend support, not uploaded as of now",
+        "created_at": 12345678910
+      },
+      {
+        "vehicle_number": "some string",
+        "vehicle_info": "some [OPTIONAL] string",
+        "travel_start": "timestamp backend support, not uploaded as of now",
+        "travel_end": "timestamp backend support, not uploaded as of now",
+        "created_at": 12345678910
+      }
+    ],
+    "location_time" :  {
+      "lat_long_string1" : 12345678910,
+      "lat_long_string2" : 12345679910
+    },
+    "device_time": {
+      "bluetooth_address_1" : 12345678910,
+      "bluetooth_address_2" : 12345679910
+    }
+      
   }
 }
