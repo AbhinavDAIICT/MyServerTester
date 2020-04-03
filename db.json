@@ -1,12 +1,11 @@
 {
   "download_data": {
-    "profile": 
-      {
-        "user_id": "some string",
-        "risk_level": "some string",
-        "close_contacts": 9,
-        "social_distancing_score": 65
-     },
+    "profile": {
+      "user_id": "some string",
+      "risk_level": "some string",
+      "close_contacts": 9,
+      "social_distancing_score": 65
+    },
     "posts": [
       {
         "post_id": "some string 1",
@@ -37,6 +36,10 @@
     ]
   },
   "upload_data": {
+    "registration" : {
+      "device_bt_address" : "some string",
+      "user_id" : "some string google account id"
+    },
     "train_details": [
       {
         "train_number": "some string",
@@ -103,14 +106,13 @@
         "created_at": 12345678910
       }
     ],
-    "location_time" :  {
-      "lat_long_string1" : 12345678910,
-      "lat_long_string2" : 12345679910
+    "location_time": {
+      "lat_long_string1": 12345678910,
+      "lat_long_string2": 12345679910
     },
     "device_time": {
-      "bluetooth_address_1" : 12345678910,
-      "bluetooth_address_2" : 12345679910
+      "bluetooth_address_1": 12345678910,
+      "bluetooth_address_2": 12345679910
     }
-      
   }
 }
