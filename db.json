@@ -8,31 +8,33 @@
     },
     "posts": [
       {
-        "post_id": "some string 1",
-        "title": "some string 1",
-        "subtitle": "some string 1",
-        "duration": "some string 1",
-        "media_url": "some string 1",
-        "post_type": "some string 1",
-        "is_pinned": true,
-        "is_web_only": true,
-        "web_url": "some string 1",
-        "created_at": 12345678910,
-        "updated_at": 12345678910
-      },
-      {
-        "post_id": "some string 2",
-        "title": "some string 2",
-        "subtitle": "some string 2",
-        "duration": "some string 2",
-        "media_url": "some string 2",
-        "post_type": "some string 2",
-        "is_pinned": true,
-        "is_web_only": true,
-        "web_url": "some string 2",
-        "created_at": 12345678910,
-        "updated_at": 12345678910
-      }
+    "id": 4,
+    "title": "Everything You Need To Know About Writing Professional Emails",
+    "subtitle": "",
+    "body": "",
+    "duration": "",
+    "media_url": "https://buildmyvocab.com/blog/wp-content/uploads/2017/10/email1-735x400.jpg",
+    "web_url": "https://buildmyvocab.com/blog/everything-you-need-to-know-about-writing-professional-emails/",
+    "is_web_only": true,
+    "is_pinned": false,
+    "created_at": 1508564195,
+    "updated_at": 1508564195,
+    "post_type": "web_link"
+  },
+  {
+    "id": 5,
+    "title": "225 Essential Words For Bank PO/UPSC Exam With Usage Meaning",
+    "subtitle": "You need to check this our if you are preparing for Bank PO examination !!",
+    "body": "",
+    "duration": "",
+    "media_url": "https://buildmyvocab.com/blog/wp-content/uploads/2017/09/Bank-PO-735x400.jpeg",
+    "web_url": "https://buildmyvocab.com/blog/category/bank-po-word-list/",
+    "is_web_only": true,
+    "is_pinned": false,
+    "created_at": 1508564819,
+    "updated_at": 1508564833,
+    "post_type": "web_link"
+  }
     ]
   },
   "upload_data": {
